@@ -4519,6 +4519,32 @@
           }
         ]
       },
+      "type": {
+        "multiple": true,
+        "required": false,
+        "types": [
+          {
+            "type": "function_type",
+            "named": true
+          },
+          {
+            "type": "tuple_type",
+            "named": true
+          },
+          {
+            "type": "type",
+            "named": true
+          },
+          {
+            "type": "type_hole",
+            "named": true
+          },
+          {
+            "type": "type_var",
+            "named": true
+          }
+        ]
+      },
       "value": {
         "multiple": false,
         "required": true,
